@@ -42,7 +42,7 @@ def handle_message(message):
     }
 
     payload = {
-        "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+        "model": "z-ai/glm-4.5-air:free",
         "messages": [
             {"role": "system", "content": CONTENT_MEGAN},
             {"role": "user", "content": user_text}
